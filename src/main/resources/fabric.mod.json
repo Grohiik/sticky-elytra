@@ -1,8 +1,7 @@
 {
-    "schemaVersion": 1,
-  "id": "modid",
+  "schemaVersion": 1,
+  "id": "stickyelytra",
   "version": "${version}",
-
   "name": "sticky-elytra",
   "description": "Makes elytra persistent on death, like keepInventory but only for elytra",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "https://heartbrrr.live/",
     "sources": "https://github.com/Heartbreaker/sticky-elytra"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "icon": "assets/modid/stickyElytraPicture.png",
   "environment": "*",
   "entrypoints": {
     "main": []
@@ -23,14 +20,12 @@
   "mixins": [
     "modid.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
-    "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
   },
   "suggests": {
-        "another-mod" : "*"
-    }
+    "another-mod": "*"
+  }
 }

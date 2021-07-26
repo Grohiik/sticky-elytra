@@ -5,7 +5,10 @@
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
-  "client": [],
+  "client": [
+    "PlayerInventoryMixin",
+    "PlayerManagerMixin"
+  ],
   "server": [
     "PlayerInventoryMixin",
     "PlayerManagerMixin"
