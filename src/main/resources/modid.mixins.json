@@ -1,0 +1,16 @@
+{
+    "required": true,
+  "minVersion": "0.8",
+  "package": "net.Heartbreaker.stickyElytra.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [],
+  "server": [
+    "PlayerInventoryMixin",
+    "PlayerManagerMixin"
+  ],
+  "injectors": {
+        "defaultRequire" : 1
+    }
+}
