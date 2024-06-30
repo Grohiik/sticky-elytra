@@ -1,4 +1,4 @@
-package net.Heartbreaker.stickyElytra.mixin;
+package heartbrrr.sticky_elytra.mixin;
 
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;

@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "heartbrrr.sticky_elytra.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+	],
+	"client": [
+	  "PlayerInventoryMixin",
+	  "PlayerManagerMixin"
+	],
+	"server": [
+	  "PlayerInventoryMixin",
+	  "PlayerManagerMixin"
+	],
+	"injectors": {
+		  "defaultRequire" : 1
+	  }
+  }
+  

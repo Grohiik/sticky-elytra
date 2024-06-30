@@ -1,31 +1,32 @@
 {
-  "schemaVersion": 1,
-  "id": "stickyelytra",
-  "version": "${version}",
-  "name": "sticky-elytra",
-  "description": "Makes elytra persistent on death, like keepInventory but only for elytra",
-  "authors": [
-    "Heartbreaker"
-  ],
-  "contact": {
-    "homepage": "https://heartbrrr.live/",
-    "sources": "https://github.com/Heartbreaker/sticky-elytra"
-  },
-  "license": "CC0-1.0",
-  "icon": "assets/modid/stickyElytraPicture.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": []
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=0.11.3",
-    "minecraft": "1.17.x",
-    "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"schemaVersion": 1,
+	"id": "sticky-elytra",
+	"version": "${version}",
+	"name": "Sticky Elytra",
+	"description": "Makes elytra persistent on death, like keepInventory but only for elytra",
+	"authors": [
+	  "Heartbreaker"
+	],
+	"contact": {
+		"homepage": "https://no.com/",
+		"sources": "https://github.com/Heartbreaker/sticky-elytra"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sticky-elytra/stickyElytraPicture.png",
+	"environment": "*",
+	"entrypoints": {
+	  "main": []
+	},
+	"mixins": [
+		"sticky-elytra.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }

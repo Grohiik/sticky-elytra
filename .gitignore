@@ -4,11 +4,10 @@
 build/
 out/
 classes/
-publish/
 
-# git
+# eclipse
 
-.shelf/
+*.launch
 
 # idea
 
@@ -17,9 +16,6 @@ publish/
 *.ipr
 *.iws
 
-# eclipse
-*.launch
-
 # vscode
 
 .settings/
@@ -27,9 +23,18 @@ publish/
 bin/
 .classpath
 .project
-*.code-workspace
+
+# macos
+
+*.DS_Store
 
 # fabric
 
 run/
-logs/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr

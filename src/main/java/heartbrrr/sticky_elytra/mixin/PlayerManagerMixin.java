@@ -1,6 +1,7 @@
-package net.Heartbreaker.stickyElytra.mixin;
+package heartbrrr.sticky_elytra.mixin;
 
 import com.google.common.collect.ImmutableList;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.PlayerManager;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -15,7 +16,7 @@ import java.util.List;
 @Mixin(PlayerManager.class)
 public class PlayerManagerMixin {
     @Inject(method = "respawnPlayer", at = @At(value = "RETURN"), cancellable = true)
-    private void transferInventory(ServerPlayerEntity oldplayer, boolean alive,
+    private void transferInventory(ServerPlayerEntity oldplayer, boolean alive, Entity.RemovalReason removalReason,
                                    CallbackInfoReturnable<ServerPlayerEntity> cir) {
         ServerPlayerEntity newPlayer = cir.getReturnValue();
         List<DefaultedList<ItemStack>> oldInventorylist =
