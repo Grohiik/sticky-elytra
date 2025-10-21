@@ -6,11 +6,13 @@
 	],
 	"client": [
 	  "PlayerInventoryMixin",
-	  "PlayerManagerMixin"
+	  "PlayerManagerMixin",
+	  "EntityEquipmentMixin"
 	],
 	"server": [
 	  "PlayerInventoryMixin",
-	  "PlayerManagerMixin"
+	  "PlayerManagerMixin",
+	  "EntityEquipmentMixin"
 	],
 	"injectors": {
 		  "defaultRequire" : 1
